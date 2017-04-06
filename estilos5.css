@@ -1,0 +1,233 @@
+/* css/estilos2.css */
+html, body {
+	height:100%;
+
+}
+body{
+	background-repeat:repeat;
+	margin-top:0px;
+	padding-top: 0px;
+	
+}
+.wrapper {
+   max-width: 1200px;
+   background-color:#FFF;
+   width: 100%;
+   margin: 0 auto -20px;
+}
+
+img {
+   padding:1px;
+   border:1px solid #D7D7D7;
+   background-color:#FFF;
+   margin: 5px 5px 5px 5px;
+   float: left;
+   max-width: 100%; height: auto;
+}
+header {
+	background:#2c3e50;
+	color:#fff;
+}
+
+.main {
+	background:#f2f2f2;
+}
+.row {
+	margin: 10 10 5 5;
+}
+.color1 {
+	background: #34495e;
+	color:#fff;
+}
+.color2 {
+	background: #fff;
+	color:#34495e;
+}
+.color3 {
+	background: #ff0000;
+	color:#fff;
+}
+.color5 {
+	background: #63719f;
+	color:#000000;
+}
+.color6 {
+	background: #90b1a0;
+	color:#000;
+}
+.color7 {
+	background: #000;
+	color:#fff;
+  }
+aside {
+	background:#c0392b;
+	color:#fff;
+}
+article {
+	background: #34495e;
+	color:#fff;
+}
+/* Opcion {
+	width: 100%;
+	background:#0d0d0d;
+	color:orangered;
+	
+} */
+#renglon {
+    list-style: color #f90;
+
+}
+footer {
+	background:#16a085;
+	color:#fff;
+  background-image: url(images/TV15.jpeg);
+	background-repeat: repeat-x;
+}
+h5 {
+    background:#2c3e50;
+	  color:#ddd000;
+    font-size: 24px;
+}
+ol, ul {
+	list-style:none;
+	line-height:10px;
+	margin: 30px 10px; 
+	
+/*	margin-top: 30px; */
+	margin-left: 0px; /* alinea aside izquierda */
+}
+/* 
+ul.nav li {
+	padding:0px 0 0px 0px;
+	line-height:24px;
+	 margin: 0px 5px 5px 5px;
+	 background:url(../images/list-1.gif) 0 20px no-repeat;
+	 height: 24px;
+} */
+ul.nav li {
+/*	 height: 30px; */
+	 margin: 5px 10px 0 0; /* Lista Ordenada Indices ajustados */
+	 background:url(../images/list-1.gif) 5px 10px no-repeat; 
+	 line-height:8px; 
+	 font-size: 14px;
+	 
+/*	background: #ddd000; */
+	/* font-weight:bold; */
+	
+/*	margin-top: 30px; */
+	}
+ul a {
+color:#fff;
+
+}
+ul.nav link {
+color:#000;
+}
+/* div img {
+  position: absolute;
+  top:  50px; 
+  left: 50px;
+} */
+#Venta_lg {
+  position: absolute;
+  top:  155px; 
+  left: 620px;
+}
+#Venta_xs {
+  position: absolute;
+  top:  62px; 
+  left: 120px;
+}
+#Venta_sm {
+  position: absolute;
+  top: 70px; 
+  left: 320px;
+}
+#Venta_md {
+  position: absolute;
+  top:  110px; 
+  left: 550px;
+}
+#combop {
+	position: absolute;
+  top:  260px;
+	left: 260px;
+}
+#comprar1 {
+  position: absolute;
+  top:  250px; 
+  left: 140px;
+}
+#comprar2 {
+  position: absolute;
+  top:  330px; 
+  left: 203px;
+}
+#comprar3 {
+  position: absolute;
+  top:  255px; 
+  left: 143px;
+}
+#camara_gde {
+  position: absolute;
+  top:  245px; 
+  left: 600px;
+}
+
+#pplazafoto {
+  position: absolute;
+  top:  160px; 
+  left: 580px;
+}
+#perfil1 {
+  position: absolute;
+  top:  235px; 
+  left: 923px;
+}
+#perfil2 {
+  position: absolute;
+  top:  130px; 
+  left: 855px;
+}
+div img.normal,
+div:hover img.hover { display: block; }
+div img.hover,
+div:hover img.normal { display: none; }
+
+#relBox{
+    position:fixed;
+    width:400px;
+    right:-2000px;
+    bottom:30px;
+    background-color:#fff;
+    border-radius:2px;
+    padding:30px;
+    display:block;
+    box-shadow:0 1px 5px rgba(50,50,50,0.4);
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    transition:all .3s ease-out;overflow:hidden;
+    z-index:10}
+#relBoxHeader{
+    display:block;
+    padding:10px 30px;
+    margin:-20px -30px 0;
+    font-size:18px;
+    font-weight:300}
+#relBoxLink{
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    line-height:22px;color:#000}
+#relBoxLink:hover{
+    text-decoration:none;
+    color:#308fe7}
+#relBoxClose{
+    position:absolute;
+    top:2px;
+    right:10px;
+    cursor:pointer;
+    color:#aaa;
+    font-size:18px;
+    font-weight:600}
